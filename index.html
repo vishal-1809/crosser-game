@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://i.pinimg.com/originals/9c/51/b6/9c51b65f68abf47b614f3c5aba3350aa.jpg" sizes="16x16"
+        type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <title>Crosser Game</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="win" id="win">YOU WON!</div>
+        <div class="gameover" id="gameover">GAME OVER!</div>
+        <button class="btn newgame" id="newgame" onclick="window.location.reload();">NEW GAME</button>
+        <h2 class="timeleft">Time Left : <span class="time" id="time">30</span></h2>
+    </header>
+    <div class="whole">
+        <div class="grid">
+
+        </div>
+    </div>
+    <div class="btns">
+        <button class="btn keys" id="left">Left</button>
+        <button class="btn keys" id="right">Right</button>
+        <button class="btn keys" id="up">Up</button>
+        <button class="btn keys" id="down">Down</button>
+    </div>
+
+
+</body>
+<script src="index.js"></script>
+
+</html>

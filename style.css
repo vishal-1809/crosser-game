@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lobster", cursive;
+}
+
+body {
+  /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYHE0HQd6a9Y5cgpD0cDOqtG7tIvYmuW2brA&usqp=CAU'); */
+  /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv7oGht34jWKi_IFu2kQqPS64GmEmCwOcSbQ&usqp=CAU'); */
+  background-image: url("background.PNG");
+  /* background-image: url('https://i.pinimg.com/originals/9c/51/b6/9c51b65f68abf47b614f3c5aba3350aa.jpg'); */
+  /* background-image: url('https://i.pinimg.com/236x/af/f2/1a/aff21a6b3351a108f4ec3bf85903c7cb--platform-games-game-background.jpg');*/
+  background-size: cover;
+}
+
+.header {
+  justify-content: center;
+  text-align: center;
+}
+
+.win {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  display: none;
+}
+
+.gameover {
+  background-color: rgb(197, 7, 7);
+  color: black;
+  text-align: center;
+  padding: 10px;
+  display: none;
+}
+
+.btn {
+  background-color: rgb(1, 194, 1);
+  color: black;
+  padding: 10px;
+  margin-top: 1.5%;
+}
+
+.btn:hover {
+  background-color: rgb(2, 41, 2);
+  color: white;
+}
+
+.timeleft {
+  padding: 10px;
+  color: white;
+}
+
+.whole {
+  display: flex;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  border: 4px solid black;
+}
+
+.grid div {
+  border: 2px solid black;
+  height: 20px;
+  width: 20px;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+}
+
+.keys {
+  margin-left: 13px;
+  margin-right: 13px;
+}
+
+.man {
+  background-color: rgb(1, 95, 1);
+}
+
+.obs1 {
+  background-color: yellow;
+}
+
+.obs2 {
+  background-color: rgb(17, 124, 110);
+}
+
+.obs3 {
+  background-color: blue;
+}
+
+.obs4 {
+  background-color: brown;
+}
+
+.obs5 {
+  background-color: red;
+}
+
+.over {
+  background-color: black;
+}
